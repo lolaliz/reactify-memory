@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "image": "./assets/images/arya.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/cersei.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/daenerys.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/greyworm.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/jamie.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/jonsnow.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "./assets/images/khaldrogo.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "./assets/images/ned.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "./assets/images/sansa.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "./assets/images/thehound.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "./assets/images/theon.jpeg",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "./assets/images/tyrion.jpeg",
+      "clicked": false
+    }
+  ]
