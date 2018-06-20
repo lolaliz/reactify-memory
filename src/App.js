@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
-import matches from "./imagecards.json";
+import images from "./imagecards.json";
 import './App.css';
 
 class App extends Component {
   // Setting this.state.matches to the matches json array
   state = {
-    matches
+    images
     // correctGuesses,
     // bestScore,
     // clickMessage
@@ -22,12 +22,12 @@ class App extends Component {
           <h1 > Score:  <span> | </span> Top Score: </h1>
         </header>
         <Wrapper>
-        {this.state.matches.map(match => (
+        {this.state.images.map(image => (
                     <ImageCard
                         //setClicked={this.setClicked}
-                        id={match.id}
-                        key={match.id}
-                        image={match.image}
+                        id={image.id}
+                        key={image.id}
+                        image={image.image}
                     />
                 ))}
         </Wrapper>
